@@ -1,0 +1,309 @@
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-image:url(/leone-venter-VieM9BdZKFo-unsplash.jpg)
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #20202122;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav ul li a:hover {
+    /* color: rgb(153, 153, 226); */
+    color: #6b0ddd;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.left a {
+    text-decoration: none;
+    color: white;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    /* margin: 23px 0; */
+    align-items: center;
+    margin-left: 60px;
+}
+
+.firstSection>div {
+    width: 30%;
+    margin-right: 20px;
+}
+
+
+.leftSection {
+    font-size: 1.5rem;
+    width: 30%;
+}
+
+.leftSection p {
+    font-size: 2rem;
+}
+
+.rightSection {
+    width: 30%;
+}
+
+.rightSection img {
+    width: 80%;
+    margin: 50px 0;
+}
+
+.btns {
+    padding: 43px 0;
+}
+
+.fa-brands {
+    padding: 0 10px;
+}
+
+.bttn {
+    padding: 12px;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.purple {
+    color: #6b0ddd;
+    /* color: brown; */
+}
+
+.secondSection {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.secondSection .intro {
+    width: 40%;
+}
+
+.secondSection h5 {
+    font-size: 2rem;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.secondSection p {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.thirdSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.thirdSection h1 {
+    display: grid;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.contactSocial{
+    padding-left: 10px;
+    margin: 20px 0;
+}
+
+.contactSocial a{
+    font-size: 2rem;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: #2020213f;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    height: 10vh;
+    align-items: center;
+}
+
+.social a {
+    padding: 0 5px;
+}
+
+/* Projects */
+        .projectSection {
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .projectSection>div {
+            margin: 50px 50px;
+            height: 65vh;
+            border: #9f59fa 1px solid;
+            border-radius: 5px;
+        }
+
+        .heading {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .heading p {
+            font-size: 3rem;
+
+        }
+
+        .cards {
+            justify-content: center;
+            align-items: center;
+            box-shadow: #6b0ddd 0px 5px 15px;
+        }
+
+        .card-img-top {
+            justify-content: center;
+            padding: 5px;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            text-align: center;
+        }
+
+        .card-text {
+            font-size: .75rem;
+            padding: 5px;
+        }
+
+        .pBtn {
+            padding: 12px;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            margin: 10px 20px;
+        }
+
+        .pBtn a{
+            text-decoration: none;
+            color: white;
+        }
+
+/* About */
+        .footerFirst {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px 0;
+        }
+
+        .footerNav ul li {
+            list-style-type: none;
+        }
+
+        .footerNav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .aboutMe {
+            display: flex;
+            justify-content: center;
+            height: 350px;
+            margin: 50px 50px;
+        }
+
+        .aboutMe>div {
+            width: 50%;
+            margin: 50px 50px;
+            padding-left: 100px;
+        }
+
+        .aboutMe h5 {
+            font-size: 2rem;
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+
+        .aboutMe p {
+            font-size: 15px;
+            margin: 15px 0;
+        }
+
+        .skills{
+            width: auto;
+            margin: 100px 0;
+        }
+
+        .skillSet {
+            margin: 50px auto;
+            width: 800px;
+            height: 200px;
+            display: grid;
+            grid-template-columns: 200px 200px 200px 200px;
+            grid-row: auto auto;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+
+            .skillCard {
+                border: #9f59fa 1px solid;
+                box-shadow: #6b0ddd 0px 5px 15px;
+                margin: 10px 10px;
+                padding: 20px;
+                border-radius: 10px;
+                color: #6b0dddd8;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 40px;
+            }
+        }

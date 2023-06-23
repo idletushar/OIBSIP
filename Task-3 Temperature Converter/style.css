@@ -1,5 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(pexels-evie-shaffer-4004374.jpg);
+}
+
 .container {
+    position: relative;
+    top: 100px;
     width: 300px;
+    color: white;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;

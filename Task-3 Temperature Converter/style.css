@@ -16,6 +16,7 @@ body{
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-shadow: rgba(162, 8, 228, 0.939) 0px 5px 15px;
 }
 
 .input-group {

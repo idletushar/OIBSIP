@@ -1,23 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(SL_123119_26540_02.jpg);
+            background-size: cover;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            height: 8rem;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        ul li {
+            list-style: none;
+            padding: 2px 5px;
+        }
+    </style>
 
 </head>
+
 <body>
-    <nav>
-        <ul class="px-2 py-4 flex space-x-2">
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact Us</li>
-        </ul>
-    </nav>
+    <header>
+        <nav class="flex justify-around items-center text-white h-32">
+            <div class="text-2xl font-extralight ">
+                CompanyName
+            </div>
+            <div>
+                <ul class="px-4 py-4 flex space-x-2 ">
+                    <li class="hover:text-purple-700 cursor-pointer  font-thin">Home</li>
+                    <li class="hover:text-purple-700  cursor-pointer  font-thin">About</li>
+                    <li class="hover:text-purple-700  cursor-pointer  font-thin">Contact Us</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="flex items-center font-thin justify-around">
+            <div>
+            </div>
+            <div class=" w-3/6">
+                <h1 class="italic text-4xl my-8">Landing Page</h1>
+                <p class="font-extralight">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est laborum.</p>
+                <div class=" mt-20">
+                    <button class="hover:text-purple-700 p-2 border-2 radius">Learn More</button>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
 
 </body>
+
 </html>
